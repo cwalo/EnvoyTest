@@ -7,15 +7,23 @@
 //
 
 import UIKit
+import Envoy
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    var client: Envoy?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        do {
+            client = try EnvoyBuilder().build()
+        } catch {
+            print(error)
+        }
+
         return true
     }
 

@@ -1,0 +1,16 @@
+PODS:
+  - EnvoyClient (0.1.1)
+
+DEPENDENCIES:
+  - EnvoyClient (from `../envoy-mobile/`)
+
+EXTERNAL SOURCES:
+  EnvoyClient:
+    :podspec: "../envoy-mobile/"
+
+SPEC CHECKSUMS:
+  EnvoyClient: bc9a94f8730861fd83ec65db6bd5531801aec48f
+
+PODFILE CHECKSUM: 0e38bf8379a356a195b45e65400dd620cfd7292a
+
+COCOAPODS: 1.7.5
