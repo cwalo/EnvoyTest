@@ -6,6 +6,6 @@ target 'EnvoyTest' do
   use_frameworks!
 
   # Pods for EnvoyTest
-  pod 'EnvoyClient', :podspec => '../envoy-mobile/'  
+  pod 'EnvoyMobile', :podspec => '../envoy-mobile/'  
 
 end
